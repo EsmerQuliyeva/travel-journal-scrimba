@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", serif;
+}
+.navbar-container {
+  background-color: #f55a5a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+h3 {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  color: #ffffff;
+}
+.travel-journal-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 50px;
+}
+.left-part {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+.left-part img {
+  height: 100%;
+  width: 320px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.left-part img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.11), 0 2px 2px rgba(0, 0, 0, 0.11),
+    0 4px 4px rgba(0, 0, 0, 0.11), 0 8px 8px rgba(0, 0, 0, 0.11),
+    0 16px 16px rgba(0, 0, 0, 0.11), 0 32px 32px rgba(0, 0, 0, 0.11);
+}
+.right-part {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.location-part {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.location-part .icon {
+  color: #f55a5a;
+  font-size: 17px;
+}
+.location-part span {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 13px;
+}
+.location-part a {
+  text-decoration: none;
+  color: #918e9b;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 13px;
+}
+.right-part h2 {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 31px;
+  color: #2b283a;
+}
+.right-part .date {
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 13px;
+}
+.right-part .description {
+  max-width: 800px;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 25px;
+}
